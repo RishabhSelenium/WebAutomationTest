@@ -12,11 +12,13 @@ import org.testng.annotations.Test;
 public class webTest {
 
 	
-	@Test
-public void WebTestCase() {
-	//invoke the chromeDriver to launch the chrome
-	System.setProperty("webdriver.chrome.driver", "../RishabhWebAssignment/drivers/chromedriver");
-	WebDriver driver = new ChromeDriver(); 
+@Test
+public void WebTestCase() 
+{
+	
+    //invoke the chromeDriver to launch the chrome
+    System.setProperty("webdriver.chrome.driver", "../RishabhWebAssignment/drivers/chromedriver");
+    WebDriver driver = new ChromeDriver(); 
     driver.get("https://www.google.com/"); //navigate to googel.com
     driver.manage().window().maximize(); // maximize the chrome browser
     driver.manage().deleteAllCookies(); // 
@@ -33,8 +35,8 @@ public void WebTestCase() {
     String expectedTitle = "Selenium";
     Assert.assertEquals(driver.getTitle(), expectedTitle);
     Assert.assertEquals(driver.getCurrentUrl(), expectedURL);
-    driver.close();
-    
+    driver.close();    
     
 }
+	
 }
