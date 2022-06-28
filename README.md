@@ -17,7 +17,7 @@ Steps to run the TestCase
 3. If you are using windows, you need to download and replace the ChromeDriver from *https://chromedriver.chromium.org/downloads*
 2. You should find the chromeDriver in **drivers** folder
 3. Navigate to ```src/test/java``` and open ```webTest.java``` file under ```org.testing.WebTest``` package.
-4. Run ``webTest.java``` as TestNG
+4. Run ```webTest.java``` file as TestNG
 
 <h4>Please Note</h4>
 
