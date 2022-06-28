@@ -13,9 +13,15 @@ This project will launch the chrome browser and do the followings
 Steps to run the TestCase    
 
 1. Check if Chrome browser is installed. If installed it should be compatible with chromeDriver.
-2. You should find the chromeDriver in 
+2. I used Mac ChromDriver which is compatible with - Version 103.0.5060.53 of Chrome Browser.
+3. If you are using windows, you need to download and replace the ChromeDriver from *https://chromedriver.chromium.org/downloads*
+2. You should find the chromeDriver in **drivers** folder
 3. Navigate to ```src/test/java``` and open ```webTest.java``` file under ```org.testing.WebTest``` package.
 4. Run ``webTest.java``` as TestNG
+
+<h4>Please Note</h4>
+
+* you can run this script with any web browser, you just need to download the driver for the specific brower and update 1 line of code ```WebDriver driver = new ChromeDriver();``` at ```webTest.java``` file 
 
 
 
